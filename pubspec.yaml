@@ -1,0 +1,60 @@
+name: nodelabs_case
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.4.0
+  flutter_bloc: ^9.0.0
+  equatable: ^2.0.5
+  shared_preferences: ^2.2.2
+  flutter_secure_storage: ^9.0.0
+  get_it: ^7.6.0
+  intl: ^0.20.2
+  image_picker: ^1.0.4
+  lottie: ^3.3.1
+  cupertino_icons: ^1.0.8
+  path_provider: ^2.1.2
+  cached_network_image: ^3.3.1
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.0
+  flutter_localizations:
+    sdk: flutter
+  logger: ^2.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "ios/assets/icons/SinFlixLogo.png"
+
+flutter_native_splash:
+  color: "#000000"
+  image: "ios/assets/splash/SinFlixSplash.png"
+  android: true
+  ios: true
+  web: false
+  android_gravity: center
+  ios_content_mode: scaleAspectFill
+  android_12:
+    image: "ios/assets/splash/SinFlixSplash.png"
+  min_sdk_android: 21
+  android_screen_orientation: portrait  
+
+flutter:
+  uses-material-design: true
+  assets:
+    - ios/assets/icons/
+    - ios/assets/splash/SinFlixSplash.png
+    - ios/assets/lottie/loading.json
+  generate: true
