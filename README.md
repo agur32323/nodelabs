@@ -1,16 +1,7 @@
 # nodelabs_case
 
 A new Flutter project.
+# 🎬 Nodelabs Case - SinFlix Uygulaması
 
-## Getting Started
+Bu proje, Flutter ile geliştirilen bir **film keşif ve kullanıcı yönetim uygulamasıdır**.  
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
